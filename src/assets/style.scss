@@ -1,0 +1,19 @@
+@import "./design-doc.scss";
+
+body {
+    margin: 0;
+}
+
+nav {
+
+}
+
+main {
+    display:flex;
+    position: relative;
+    width: 100vw;
+    height: ;
+    background-color: $base-color;
+    justify-content: center;
+    align-items: center;
+}
