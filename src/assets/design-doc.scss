@@ -1,4 +1,14 @@
-$base-color: #000;
-$seconday-color: #454545;
+$base-color: #212121;
+$secondary-color: #454545;
 $accent-color: #972fff;
 
+@mixin characters {
+  display: inline;
+  position: absolute;
+  top: 45%;
+  left: 0%;
+  color: gray;
+  font-weight: lighter;
+  font-size: 2vw;
+  z-index: 1;
+}

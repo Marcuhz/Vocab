@@ -1,7 +1,7 @@
-import { Landing } from "./pages/landing"
+import { Landing } from './pages/landing';
 
 function App() {
-  return <Landing/>
+  return <Landing />;
 }
 
-export default App
+export default App;
