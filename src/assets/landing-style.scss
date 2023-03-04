@@ -1,0 +1,82 @@
+@import './design-components.scss';
+:root {
+	background-color: $background-color;
+	color: $text-color;
+	font-family: 'rubik';
+	text-align: center;
+	font-size: 4vw;
+	user-select: none; //so the user can't select any text.
+	body {
+		margin: 0;
+	}
+}
+//beginning of nav
+nav {
+	display: flex;
+	width: 100vw;
+	height: 10vh;
+}
+
+//beginning of main
+main {
+	display: flex;
+	position: relative;
+	width: 100vw;
+	height: 90vh;
+	justify-content: center;
+	align-items: flex-start;
+
+	header {
+		position: absolute;
+		top: 10vh;
+		.text {
+			color: $text-color-two;
+		}
+		.cursor {
+			color: $text-color-two;
+		}
+	}
+	.start-button {
+		position: relative;
+		width: 7vw;
+		height: 5vh;
+		border-radius: 10px 10px 10px 10px;
+		top: 50%;
+		background-color: $text-color;
+		color: $text-color-two;
+		font-weight: bold;
+		letter-spacing: 1px;
+		animation-delay: 2s;
+		animation: fadeIn 0.3s ease-out;
+	}
+	.test-container {
+		display: flex;
+		position: relative;
+		width: fit-content;
+		top: 45vh;
+		background-color: $background-color;
+		font-size: 2vw;
+		white-space: nowrap;
+		.generated-words {
+			position: relative;
+			left: 0;
+			text-align: start;
+			color: $text-color-dark;
+		}
+		.typed-characters {
+			position: absolute;
+			text-align: start;
+			color: $text-color-two;
+		}
+		.incorrect {
+			color: red;
+		}
+		.white-space {
+			background-color: red;
+		}
+	}
+	.cursor {
+		position: relative;
+		left: -9px;
+	}
+}

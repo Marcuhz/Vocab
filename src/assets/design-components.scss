@@ -1,0 +1,10 @@
+@import 'animate.css';
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@mixin text {
+	user-select: none;
+}
+
+$background-color: #111111;
+$text-color: #343746;
+$text-color-dark: #303241;
+$text-color-two: rgba(221, 160, 221, 0.7);
